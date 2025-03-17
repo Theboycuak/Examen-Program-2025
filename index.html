@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CECADE </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">CECADE</div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca">Acerca de</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio" class="hero">
+        <h1>Bienvenido a CECADE</h1>
+        <p>La comunidad educativa que redefine el aprendizaje.</p>
+        <button onclick="mostrarNombre()">Diego Chapas</button>
+    </section>
+    <div class="card">
+        <h2>Innovación</h2>
+        <p>Fomentamos nuevas ideas y métodos de enseñanza.</p>
+    </div>
+    <div class="card">
+        <h2>Colaboración</h2>
+        <p>Trabajamos juntos para lograr un mejor aprendizaje.</p>
+    </div>
+    <div class="card">
+        <h2>Crecimiento</h2>
+        <p>Impulsamos el desarrollo personal y profesional.</p>
+    </div>
+</section>
+    
+    <section id="acerca" class="contenido">
+        <div class="card">
+            <h2>¿Qué es CECADE?</h2>
+            <p>Es un centro de formación especializado en aprendizaje y colaboración.</p>
+        </div>
+        <div class="card">
+            <img src="https://cdn.prod.website-files.com/674e048e8284769ff51364fd/674e17b365d6112189f4ea5e_FC_HLOGO-p-500.png" alt="Imagen de CECADE">
+        </div>
+    </section>
+    
+    
+    <footer>
+        <p>&copy; 2025 CECADE. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script>
+        function mostrarNombre() {
+            console.log("Diego Chapas");
+        }
+        
+        // Mostrar nombre al cargar la página
+        window.onload = function() {
+            mostrarNombre();
+        };
+    </script>
+</body>
+</html>
+
